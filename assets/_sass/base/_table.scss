@@ -1,11 +1,18 @@
 table {
+  border: 1px solid $black;
+  margin: 0 auto;
+  max-width: 800px;
   width: 100%;
 
-  td:first-of-type {
-    width: 25%;
-  }
+  td {
+    vertical-align: top;
 
-  td:last-of-type {
-    width: 75%;
+    &:first-of-type {
+      width: 150px;
+    }
+
+    main {
+      padding: 1rem;
+    }
   }
 }

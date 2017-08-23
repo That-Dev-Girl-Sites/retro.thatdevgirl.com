@@ -1,14 +1,18 @@
 nav {
+  background: $black;
+  padding: 1rem 0 4rem;
+
   a {
-    color: darken($purple, 10%);
+    color: $purple;
     display: inline-block;
     font-weight: bold;
     padding: 0.5rem 2rem;
     text-align: center;
     text-decoration: none;
+    width: 100%;
 
     &:hover {
-      color: $purple;
+      color: lighten($purple, 10%);
     }
   }
 
