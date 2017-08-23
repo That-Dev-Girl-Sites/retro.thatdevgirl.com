@@ -1,5 +1,18 @@
 header {
   background: url('../img/stripe-bg.jpg');
   background-size: contain;
-  padding: 1rem;
+  color: $white;
+  padding: 1.5rem 0 0;
+  text-align: center;
+
+  & > div {
+    background: $black;
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 0;
+  }
 }

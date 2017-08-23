@@ -1,5 +1,11 @@
 table {
-  margin: 2rem auto;
-  max-width: 640px;
   width: 100%;
+
+  td:first-of-type {
+    width: 25%;
+  }
+
+  td:last-of-type {
+    width: 75%;
+  }
 }

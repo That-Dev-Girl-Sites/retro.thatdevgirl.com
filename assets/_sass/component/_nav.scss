@@ -1,0 +1,20 @@
+nav {
+  a {
+    color: darken($purple, 10%);
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60px;
+  }
+}
