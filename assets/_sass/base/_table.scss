@@ -2,10 +2,12 @@ table {
   border: 1px solid $black;
   margin: 0 auto;
   max-width: 800px;
+  overflow: hidden;
   width: 100%;
 
   td {
     background: $white;
+    overflow: hidden;
     vertical-align: top;
 
     &:first-of-type {
