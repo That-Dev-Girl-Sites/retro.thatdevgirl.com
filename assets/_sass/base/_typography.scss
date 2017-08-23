@@ -1,8 +1,36 @@
+$sans: Verdana, sans-serif;
+$serif: Times, serif;
+
 body {
-  color: white;
+  color: $black;
+  font-family: $sans;
+  font-size: 0.8rem;
+}
+
+header {
+  color: $white;
+  text-align: center;
+  text-shadow: 1px 1px 2px $black;
+
+  p {
+    font-size: 1rem;
+  }
 }
 
 h1 {
-  font-size: 2rem;
-  text-align: center;
+  font-family: $serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  &:hover {
+    color: $purple;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }

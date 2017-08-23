@@ -1,0 +1,42 @@
+nav.home {
+  td {
+    border: 0.5rem solid $white;
+    text-align: center;
+    width: 50%;
+
+    img {
+      display: block;
+      margin: 0 auto 1rem;
+      max-height: 85px;
+    }
+
+    a {
+      color: $white;
+      display: block;
+      font-size: 1.2rem;
+      padding: 2rem;
+      text-decoration: none;
+
+      &:hover {
+        background: $yellow !important;
+        color: $black;
+      }
+    }
+  }
+
+  tr:first-of-type {
+    td:first-of-type a {
+      background: darken($purple, 10%);
+    }
+
+    td:last-of-type a {
+      background: darken($purple, 20%);
+    }
+  }
+
+  tr:last-of-type {
+    td a {
+      background: darken($purple, 30%);
+    }
+  }
+}
