@@ -1,0 +1,25 @@
+form {
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+  }
+
+  textarea {
+    height: 4rem;
+  }
+
+  input[type=submit] {
+    // -webkit-appearance: none;
+    background-color: $gray;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+
+  }
+}
