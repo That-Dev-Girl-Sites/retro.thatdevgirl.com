@@ -1,0 +1,10 @@
+p.resume {
+  span {
+    margin-left: 2rem;
+
+    &:first-of-type {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+}
