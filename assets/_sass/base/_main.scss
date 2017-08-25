@@ -3,7 +3,8 @@ main {
 
   ul {
     list-style-type: disc;
-    margin-left: 1rem;
+    list-style-image: url('../img/point.gif');
+    margin-left: 3rem;
 
     li {
       margin: 0 0 1rem 1rem;
