@@ -1,5 +1,5 @@
 $sans: Verdana, sans-serif;
-$serif: Times, serif;
+$serif: 'Times New Roman', serif;
 
 body {
   color: $black;
@@ -10,6 +10,12 @@ body {
 h1 {
   font-family: $serif;
   font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 p {
