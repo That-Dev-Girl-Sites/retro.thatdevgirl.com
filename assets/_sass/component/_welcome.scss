@@ -1,0 +1,22 @@
+@keyframes hellomsg {
+  0%   { left: 0%; }
+  100% { left: 100%; }
+}
+
+.hello {
+  background: $black;
+  background-size: contain;
+  color: $white;
+  font-family: $sans;
+  font-size: 0.8rem;
+  padding: 0.35rem;
+  text-align: left;
+
+  .msg {
+    animation-name: hellomsg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+  }
+}

@@ -1,33 +1,20 @@
 header {
+  background: url('../img/stripe-bg.jpg');
+  background-size: contain;
+  color: $white;
+  padding: 0.5rem;
   text-align: center;
-
-  @keyframes hellomsg {
-    0%   { left: -50px; }
-    100% { left: 650px; }
-  }
-
-  .hello {
-    background: url('../img/stripe-bg.jpg');
-    background-size: contain;
-    color: $white;
-    font-size: 1rem;
-    font-style: italic;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    text-align: left;
-
-    .msg {
-      animation-name: hellomsg;
-      animation-duration: 3s;
-      animation-iteration-count: infinite;
-      animation-timing-function: linear;
-      position: relative;
-    }
-  }
+  text-shadow: 1px 1px 5px $black;
 
   p {
+    color: lighten($purple, 35%);
+    font-family: $sans;
     font-size: 1rem;
     font-style: italic;
+    left: 4.8rem;
     margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: -0.8rem;
   }
 }

@@ -3,8 +3,10 @@
 @import 'base/colors';
 @import 'base/typography';
 @import 'base/table';
+@import 'base/main';
 
 // Components
+@import 'component/welcome';
 @import 'component/header';
 @import 'component/footer';
 @import 'component/nav';

@@ -1,24 +1,19 @@
 nav {
-  background: $black;
-  padding: 1rem 0 4rem;
+  font-family: $sans;
+  font-size: 0.8rem;
+  margin-top: 1rem;
 
   a {
     color: $purple;
-    display: inline-block;
-    font-weight: bold;
-    padding: 0.5rem 2rem;
+    display: block;
+    margin-bottom: 1rem;
     text-align: center;
     text-decoration: none;
-    width: 100%;
-
-    &:hover {
-      color: lighten($purple, 10%);
-    }
   }
 
   img {
     display: block;
     margin: 0 auto;
-    max-width: 60px;
+    width: 50px;
   }
 }
